@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Rubik:wght@300;400;600&display=swap');
+/*
+'Rubik', sans-serif;
+font-weight: 200;
+font-weight: 400;
+font-weight: 600;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Rubik:wght@300;400;600&display=swap');
+/*
+'Quicksand', sans-serif;
+font-weight: 300;
+font-weight: 500;
+font-weight: 700;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+/*
+'Rubik Vinyl', cursive;
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1D1D1D;
+}
+
+/* INDEX.HTML */
+.title-A {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Ruibk', sans-serif;
+    font-weight: 400;
+}
+
+.desc-A {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    font-weight: 200;
+
+}
+
+.btn-A {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    padding: 15px 30px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.glow-border {
+    transition: border-color .5s;
+}
+
+.glow-border:hover {
+    border-color: #4DEA3D;
+}
+
+.title-B {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.desc-B {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+i.fa-sharp {
+    font-size: 4rem;
+}
+
+i.fa-solid {
+    font-size: 4rem
+}
+
+i.fa-regular {
+    font-size: 4rem
+}
+
+.title-C {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    text-shadow: 3px 3px 0 #000;
+    font-size: 3rem;
+}
+
+.desc-C {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding-top: 15px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.container {
+    padding: 200px 0 0 100px;
+    display: flex;
+    flex-direction: row;
+}
