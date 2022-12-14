@@ -19,6 +19,10 @@ font-weight: 700;
 'Rubik Vinyl', cursive;
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #1D1D1D;
 }
@@ -26,18 +30,19 @@ body {
 /* INDEX.HTML */
 .title-A {
     color: white;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
-    font-family: 'Quicksand', cursive;
-    font-weight: 300;
+    font-family: 'Ruibk', sans-serif;
+    font-weight: 400;
 }
+
 .desc-A {
     color: white;
     font-size: 2rem;
     text-align: center;
     font-family: 'Quicksand', cursive;
     font-weight: 200;
-    
+
 }
 
 .btn-A {
@@ -57,4 +62,40 @@ body {
 
 .glow-border:hover {
     border-color: #4DEA3D;
+}
+
+.title-B {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.desc-B {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+i.fa-sharp {
+    font-size: 4rem;
+}
+
+i.fa-solid {
+    font-size: 4rem
+}
+
+i.fa-regular {
+    font-size: 4rem
+}
+
+.title-C {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    text-shadow: 3px 3px 0 #000;
+    font-size: 3rem;
 }
