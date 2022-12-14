@@ -99,3 +99,19 @@ i.fa-regular {
     text-shadow: 3px 3px 0 #000;
     font-size: 3rem;
 }
+
+.desc-C {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding-top: 15px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.container {
+    padding: 200px 0 0 100px;
+    display: flex;
+    flex-direction: row;
+}
