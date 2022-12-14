@@ -28,13 +28,14 @@ section img {
     color: white;
     text-align: center;
     width: 20%;
-    padding-left: 90px;
+    padding: 100px 0 0 90px;
 }
 .flex-r {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 0;
+    flex-wrap: wrap;
 }
 
 .title-B {
